@@ -1,0 +1,65 @@
+body {
+    background-size: cover;
+    background-color: gray;
+}
+
+#game {
+    position: absolute;
+    background-color: white;
+    height: 40em;
+    width: 40em;
+    left: 50%;
+    top: 50%;
+    margin-left: -20em;
+    margin-top: -20em;
+    border: 2px solid lightgreen;
+}
+
+
+#image {
+    position: relative;
+    height: 20em;
+    width: 20em;
+    left: 50%;
+    top: 2em;
+    margin-left: -10em;
+}
+
+#text {
+    background-image: url("http://3.bp.blogspot.com/-4oAWWCcNNz4/Tjr3nKNyVUI/AAAAAAAAPLU/Pouua-pNsEY/s1600/sq.gif");
+    position: absolute;
+    resize: none;
+    text-align: left;
+    font-size: 20px;
+    width: 5.67em;
+    height: 1.2em;
+    left: 47%;
+    margin-top: 6em;
+    margin-left: -2.835em;
+    font-size: 70px;
+    font-family: monospace;
+    border: none;
+    background-size: 1.2em;
+    padding-left: 0.3em;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+}
+
+#emo {
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    left: 50%;
+    top: 50%;
+    margin-left: -10em;
+    margin-top: -10em;
+    z-index: 100;
+    visibility: hidden;
+}
+
+#c {
+    position: absolute;
+    float: right;
+    right: 0.5em;
+    bottom: 0.1em;
+}
